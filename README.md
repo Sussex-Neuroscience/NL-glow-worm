@@ -22,3 +22,6 @@ Seems mouse sensors using for optical flow detection are extremelly hard to come
 In the meantime I bought a cheap Ebay mouse to take it apart and see if we could learn something from the parts/components and if it would work as well on styrofoam spheres.
 
 
+#### COMMENTS FROM SOFIA
+You probably know this one already, but Mikkel (could you add him here please? I don't seem to have the rights to do it) suggested [this sensor](https://www.pixart.com/products-detail/74/PAA5100JE-Q) which is available from next week. The issue is that it seems to work with white light and we can't find the specs on the spectrum it could work with. Perhaps it could also capture infrared? Any way to know that?
+
