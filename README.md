@@ -22,6 +22,10 @@ Seems mouse sensors using for optical flow detection are extremelly hard to come
 In the meantime I bought a cheap Ebay mouse to take it apart and see if we could learn something from the parts/components and if it would work as well on styrofoam spheres.
 
 
-#### COMMENTS FROM SOFIA
-You probably know this one already, but Mikkel (could you add him here please? I don't seem to have the rights to do it) suggested [this sensor](https://www.pixart.com/products-detail/74/PAA5100JE-Q) which is available from next week. The issue is that it seems to work with white light and we can't find the specs on the spectrum it could work with. Perhaps it could also capture infrared? Any way to know that?
 
+####COMMENTS FROM SOFIA
+- You probably know this one already, but Mikkel suggested [this sensor](https://www.pixart.com/products-detail/74/PAA5100JE-Q) which is available from next week. The issue is that it seems to work with white light and we can't find the specs on the spectrum it could work with. Perhaps it could also capture infrared? Any way to know that?
+- FicTrac paper for tracking ball motion with a camera:
+https://www.researchgate.net/profile/Gavin-Taylor-2/publication/260044337_FicTrac_A_visual_method_for_tracking_spherical_motion_and_generating_fictive_animal_paths/links/5daa3b78299bf111d4be68c9/FicTrac-A-visual-method-for-tracking-spherical-motion-and-generating-fictive-animal-paths.pdf
+- Trackball for ants (no stimulus):
+https://www.researchgate.net/profile/Hansjuergen-Dahmen/publication/313776075_Naturalistic_path_integration_of_Cataglyphis_desert_ants_on_an_air-cushioned_lightweight_spherical_treadmill/links/5992c053458515a8a24bdb66/Naturalistic-path-integration-of-Cataglyphis-desert-ants-on-an-air-cushioned-lightweight-spherical-treadmill.pdf
