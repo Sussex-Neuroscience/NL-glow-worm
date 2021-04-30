@@ -27,8 +27,8 @@ Contains the trackball support SCAD file. Current version has slits for mounts. 
 `diameter` Diameter of the ball. Defaults to 44mm.
  - Glow worms: 100mm
  - Beetles: 100mm
- - Wood ants: 44mm
-`height="high"/"low"` Determines if 1/2 or 1/3 of the ball is covered.
+ - Wood ants: 44mm  
+`height="high"/"low"` Determines if 1/2 or 1/3 of the ball is covered.  
 `inlet=true/false/"only"` Whether to include an inlet which can be glued underneath the holder. 
 
 Currently the space thickness of the sides may need to be increased to make better room for the slits.
