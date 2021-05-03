@@ -1,62 +1,81 @@
-//module TrackBallSupport (h1,r1,z,r2,r3,a,a2,h2,r4,h3){
+// Trackball support for optic flow sensors
+//v1.1
+// For easy preview, change the sphere $fn to 30 (line 52)
+
+
 $fn = 30;
 echo(version=version());
+Trackball_support(diameter=44, height="low", inlet=false); //44
 
-module Trackball_support(diameter=45, height="low", inlet=true){
+module Trackball_support(diameter=44, height="low", inlet=true){
 //
 // Height: "low", "high"
 // Inlet: true, false, "only".
-//  
+//     
+// ------------------------------------------
+    
+    // Optic flow sensor
+    outer_dims = [2.7,24,24];
+    slit_width = 20;
+    center2sensor = 5;
     
     // How much of the ball should be covered
     cover = height=="low" ? 1/3 : 1/2;
     base_height = 10;
-    side_pad = 15;
+    sensor_space = 15;
+    side_pad = sensor_space+(2*outer_dims[0]);
     slit_height = 10;
     slit_translate = -(diameter*cover);
     airhole_dia = 3;
     
+    
+    // Some calculations to make the octagon correctly sized
+    rad = (diameter+2*side_pad)/2;
+    a = rad * (2*sqrt(2)-2);
+    rc = a / (sqrt(2-sqrt(2)));
+    s2s_diam = rc * 2;
+    
 
-    // Make the trackball base
+// ---------------------------------------------    
+    
+    
+    
+    // ##### Make the trackball base #####
+    
     if(inlet != "only"){
         difference(){
             rotate([0,0,360/16])
-            translate([0,0,(base_height+diameter)/2])
             difference(){
-                cylinder(h=diameter+base_height, d=diameter+side_pad, $fn=8, center=true);
-                sphere(d=diameter, $fn=360);
-                translate([0,0,(base_height+(diameter*cover))/2]){
-                cylinder(h=diameter, d=diameter+side_pad+1, $fn=8, center=true);}
+                translate([0,0,diameter/2]) 
+                cylinder(h=diameter, d=s2s_diam, $fn=8, center=true);
+                translate([0,0,base_height+(diameter/2)]) 
+                #sphere(d=diameter, $fn=360);
+                translate([0,0,(diameter/2)+base_height+(diameter*cover)])
+                cylinder(h=diameter, d=s2s_diam+1, $fn=8, center=true);
                 cylinder(h=diameter*5, d=airhole_dia, center=true);
             }
             
-    // Make slits for add-ons
+            
+            
+            
+            
+            
+    // ##### Make slits for OF sensor #####
+            
             for (i=[0 : 90 : 359]){
                 rotate([0,0,i]){
-                translate([(diameter+side_pad*1.1)/2,0,(base_height+diameter*cover)/2])
-                cube([side_pad,3,10], center=true);
-                translate([(diameter+side_pad/5)/2,0,(base_height+diameter*cover)/2])
-                cube([2,15,10], center=true);
-                    
-//                translate([(diameter+side_pad/5)/2,4.75,(base_height+diameter*cover)/2])
-//                rotate([0,90,0])
-//                    cylinder(h=4, d=3);
-                }
-            }
-    // Make slits for mounts (upside down version of above)
-            for (i=[45 : 90 : 359]){
-                rotate([0,0,i]){
-                translate([(diameter+side_pad*1.1)/2,0,base_height/2])
-                cube([side_pad,3,10], center=true);
-                translate([(diameter+side_pad/5)/2,0,base_height/2])
-                cube([2,15,10], center=true);
+                #translate([(diameter/2)+sensor_space+(outer_dims[0]/2),0,diameter*cover+base_height+center2sensor])
+                cube(outer_dims, center=true);
+                translate([(diameter/2)+sensor_space+outer_dims[0]+5,0,diameter*cover+base_height+center2sensor])
+                cube([10,slit_width,outer_dims[2]], center=true);
                 }
             }
         }
     }
 
 
-    // Inlet piece for attaching tube
+    // ##### Inlet piece for attaching tube #####
+    
     if (inlet==true || inlet == "only"){
         
         inlet_diam_inner = 6;
@@ -73,6 +92,3 @@ module Trackball_support(diameter=45, height="low", inlet=true){
         }
     }
 }
-
-   
-Trackball_support(diameter=100, height="high", inlet=false); //45
