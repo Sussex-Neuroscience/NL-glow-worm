@@ -38,6 +38,10 @@ A small standalone program which reads the movement of the cursor (motion in x c
 
 Note: Tracking ball movement with camera also possible (see links bellow for FicTrac)
 
+
+
+
+
 ###COMMENTS FROM SOFIA
 Note that I made the following changes on the text above: trackball for glow worms is the same size as for wood ants; Trackball movements red by ideally two optical mouse and also possible with camera.
 
