@@ -43,6 +43,7 @@ Note: Tracking ball movement with camera also possible (see links bellow for Fic
 
 
 ###COMMENTS FROM SOFIA
+
 Note that I made the following changes on the text above: trackball for glow worms is the same size as for wood ants; Trackball movements red by ideally two optical mouse and also possible with camera.
 
 - You probably know this one already, but Mikkel suggested [this sensor](https://www.pixart.com/products-detail/74/PAA5100JE-Q) which is available from next week. The issue is that it seems to work with white light and we can't find the specs on the spectrum it could work with. Perhaps it could also capture infrared? Any way to know that?
