@@ -33,20 +33,14 @@ Contains the trackball support SCAD file. Current version has slits for mounts. 
 
 Currently the space thickness of the sides may need to be increased to make better room for the slits.
 
+
 ## Trackball program
 A small standalone program which reads the movement of the cursor (motion in x controls rotational motion (orientation angle), changes in y translational movement). Stop the script with SPACE. Ideally integrate two ortogonal optical mouse. 
 
 Note: Tracking ball movement with camera also possible (see links bellow for FicTrac)
 
 
-
-
-
-###COMMENTS FROM SOFIA
-
-Note that I made the following changes on the text above: trackball for glow worms is the same size as for wood ants; Trackball movements red by ideally two optical mouse and also possible with camera.
-
-- You probably know this one already, but Mikkel suggested [this sensor](https://www.pixart.com/products-detail/74/PAA5100JE-Q) which is available from next week. The issue is that it seems to work with white light and we can't find the specs on the spectrum it could work with. Perhaps it could also capture infrared? Any way to know that?
+## Previous studies with trackballs:
 
 - FicTrac paper for tracking ball motion with a camera:
 https://www.researchgate.net/profile/Gavin-Taylor-2/publication/260044337_FicTrac_A_visual_method_for_tracking_spherical_motion_and_generating_fictive_animal_paths/links/5daa3b78299bf111d4be68c9/FicTrac-A-visual-method-for-tracking-spherical-motion-and-generating-fictive-animal-paths.pdf
