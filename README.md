@@ -33,6 +33,7 @@ Contains the trackball support SCAD file. Current version has slits for mounts. 
 
 Currently the space thickness of the sides may need to be increased to make better room for the slits.
 
+Also scad file for LED array (LED_line) - half circunfrence, 6 cm inner diameter, 0.5 cm thickness; with two rods to glue on the side for holding and rotating if needed (0.5 cm diam, 3 cm long)
 
 ## Trackball program
 A small standalone program which reads the movement of the cursor (motion in x controls rotational motion (orientation angle), changes in y translational movement). Stop the script with SPACE. Ideally integrate two ortogonal optical mouse. 
