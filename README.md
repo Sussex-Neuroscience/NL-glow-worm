@@ -35,7 +35,7 @@ The stimulus consists on LEDs with similar wavelength as the female glow, displa
 **Figure 2:** Detailed scheme of the support
 
 
-![Trackball support scad](software/Trackball support 5cm_corrected.scad)
+![Trackball support scad](software/Trackball_support_5cm.scad)
 
 
 
