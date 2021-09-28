@@ -35,7 +35,6 @@ The stimulus consists on LEDs with similar wavelength as the female glow, displa
 **Figure 2:** Detailed scheme of the support
 
 
-Code 1: Support
 ![Trackball support scad](software/Trackball support 5cm_corrected.scad)
 
 
@@ -95,7 +94,7 @@ Code 1: Arduino IDE mouse readings
 
 ![LED array scad](software/LED_line.scad)
 
-Code 1: Arduino IDE LEDs
+Code: Arduino IDE LEDs
 
 
 **Figure 6:** Bonsai project workflow for LEDs
