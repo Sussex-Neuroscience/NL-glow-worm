@@ -30,7 +30,9 @@ The stimulus consists on LEDs with similar wavelength as the female glow, displa
 
 
 
-Figure 2: Detailed scheme of tethering and the support
+![Trackball support](figures/Trackball_suport.png)
+
+Figure 2: Detailed scheme of the support
 Code 1: Support
 
 
@@ -57,11 +59,15 @@ Code 1: Support
 
 
 
-Figure 3: Detailed scheme of electronics arrangement for mice and cam
+
 Code 1: Arduino IDE mouse readings
-Figure 4: Bonsai project workflow for mice and cam
+
+![Bonsai mice and cam](figures/Bonsai_mice_cam.png)
+
+**Figure 4:** Bonsai project workflow for mice and camera
 
 
+![LED array and controller](figures/LED_array_controller.png)
 
 
 
