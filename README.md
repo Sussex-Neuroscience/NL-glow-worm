@@ -1,6 +1,29 @@
 # NL-glow-worm
 A tracking and stimulation system for glow worms
 
+## Aims
+This set-up was design to investigate male glow-worms attraction to a stimulus that mimics the female’s glow. The aim was to be able to do so in tethered animals, whose behavior can be recorded at all times. Furthermore, we intended to have the ability to fully control the stimulus position relative to the glow-worm, as well as other characteristics such as intensity (brightness) and the duration of presentation.
+Set-up schematics
+
+## General description
+In summary, the set-up consists in a tethered male glow-worm, walking on top of polystyrene ball supported by an air cushion. As the insect walks, the ball moves beneath it and its movements are recorded by two optical mice sensors, placed close to the ball and orthogonally to each other. Each optical mouse is connected to an Arduino Due, in turn connected to a USB port. The optical mice x and y velocities are recorded by the computer, which are then analyzed in terms of translational and angular velocities.
+The stimulus consists on LEDs with similar wavelength as the female glow, displayed as an array that surrounds ~ 180° of the insect visual field. The LEDs are attached to a controller and their intensity and duration of presentation can be controlled and recorded.
+
+
+
+
+
+
+**Figure 1:** Scheme and photo of whole set-up
+
+
+
+
+
+
+
+
+
 
 information/link dump:  
 https://www.adafruit.com/product/1356  
