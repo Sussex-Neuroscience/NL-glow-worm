@@ -70,9 +70,34 @@ Code 1: Support
 Code 1: Arduino IDE mouse readings
 
 
+### Stimulus 
+
+**Hardware**
+
+- **LEDs:** Wavelength 555 nm; 5 mm diameter
+
+- **LED array:** Custom-made 3D printed semicircular structure fitting up to 9 LEDs
+
+- **LED controller:** Custom-printed circuit board which accommodates the microcontroller, the LED driver and up to 24 LED channels
+
+**Software**
+
+- **Arduino IDE (v1.8.15):** For setting and recording LEDs' intensity and duration
+
+- **Bonsai (Lopes et al., 2015):** For saving the LED information and a time stamp per frame in a .csv file.
+
+
+
 ![LED array and controller](figures/LED_array_controller.png)
 
 **Figure 5:** LED array and controller
+
+
+Code 1: Arduino IDE LEDs
+
+
+**Figure 6:** Bonsai project workflow for LEDs
+
 
 
 
