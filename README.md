@@ -13,7 +13,7 @@ The stimulus consists on LEDs with similar wavelength as the female glow, displa
 
 
 
-![Trackball schematics](figures/Trackball_set-up_general.png)
+![Trackball schematics](figures/Trackball_set-up_general_whitebackground.png)
 
 
 **Figure 1:** Scheme and photo of whole set-up
