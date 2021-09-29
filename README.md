@@ -88,18 +88,18 @@ Code 1: Arduino IDE mouse readings
 
 ![LED array and controller](figures/LED_array_controller.png)
 
-**Figure 4:** LED array and controller
+**Figure 4: LED array and controller.** 
 
 
 ![LED bonsai](figures/LED_bonsai.png)
 
 
-**Figure 5:** Bonsai project workflow for LEDs
+**Figure 5: Bonsai project workflow for LEDs.** 
 
 
 
 
-You can find the list of hardware and software here: ![list of material](hardware/List_material.xlsx)
+You can find the list of hardware and software ![here](hardware/List_material.xlsx).
 
 
 
