@@ -48,7 +48,7 @@ Individual male glow-worms were tethered in a fixed position, not being allowed 
 
 **Software**
 
-- **Arduino IDE (v1.8.15):** For recording the x and y velocities of the optical mice, at ~ 60 fps ![Mouse controller arduino](software/MouseController_1.ino).
+- **Arduino IDE (v1.8.15):** For recording the x and y velocities of the optical mice, at ~ 60 fps (![Mouse recorder arduino](software/MouseController_1.ino)).
 
 - **Bonsai (Lopes et al., 2015):** For saving the information from the arduinos and a time stamp per frame in a .csv file (Figure 3).
 
@@ -91,10 +91,10 @@ Code 1: Arduino IDE mouse readings
 **Figure 4:** LED array and controller
 
 
+![LED bonsai](figures/LED_bonsai.png)
 
 
-
-**Figure 6:** Bonsai project workflow for LEDs
+**Figure 5:** Bonsai project workflow for LEDs
 
 
 
