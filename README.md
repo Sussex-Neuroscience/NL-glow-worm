@@ -99,7 +99,7 @@ Code 1: Arduino IDE mouse readings
 
 ### List of material
 
-![list of material](figures/List_material.png)
+![list of material](figures/List_material.xlsx)
 
 
 
