@@ -48,7 +48,7 @@ Individual male glow-worms were tethered in a fixed position, not being allowed 
 
 **Software**
 
-- **Arduino IDE (v1.8.15):** For recording the x and y velocities of the optical mice, at ~ 60 fps (ADD CODE REF).
+- **Arduino IDE (v1.8.15):** For recording the x and y velocities of the optical mice, at ~ 60 fps ![Mouse controller arduino](software/MouseController_1.ino).
 
 - **Bonsai (Lopes et al., 2015):** For saving the information from the arduinos and a time stamp per frame in a .csv file (Figure 3).
 
