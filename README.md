@@ -99,9 +99,7 @@ Code 1: Arduino IDE mouse readings
 
 ### List of material
 
-a	b	c
-1	3	5
-2	4	6
+
 ![image](https://user-images.githubusercontent.com/63601758/135305921-2d7f5f85-1d23-4a61-b230-1e13c6d42a95.png)
 
 
