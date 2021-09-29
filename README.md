@@ -72,7 +72,7 @@ Individual male glow-worms were tethered in a fixed position, not being allowed 
 
 - **LED array:** Custom-made 3D printed semicircular structure fitting up to 9 LEDs (![LED array scad](software/LED_line.scad); Figure 4A).
 
-- **LED controller:** Custom-printed circuit board which accommodates the microcontroller, the LED driver and up to 24 LED channels (Figure 4B). You can find more detailed information [BadenLab/LED-Zappelin](https://github.com/BadenLab/LED-Zappelin).
+- **LED controller:** Custom-printed circuit board which accommodates the microcontroller, the LED driver and up to 24 LED channels (Figure 4B). You can find more detailed information on [BadenLab/LED-Zappelin](https://github.com/BadenLab/LED-Zappelin).
 
 **Software**
 
