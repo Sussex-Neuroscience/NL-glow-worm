@@ -41,7 +41,7 @@ Individual male glow-worms were tethered in a fixed position, not being allowed 
 
 **Hardware**
 
-- **Optic flow sensors:** Two optical mice (M500 Logitech, Lausanne, Switzerland) with sensors and relevant circuits detached from the remaining parts. The optical mice were placed orthogonally, with the sensor at the level of the ball’s equator and attached to the support with a screw.
+- **Optic flow sensors:** Two optical mice (M500 Logitech, Lausanne, Switzerland) with sensors and relevant circuits detached from the remaining parts. The optical mice were placed orthogonally, with the sensor at the level of the ball’s equator and attached to the support with a screw (Figure 2B).
 
 - **Arduino Due:** Each optical mouse was connected to one Arduino Due, which in turn connected to a USB port on a computer. 
 
