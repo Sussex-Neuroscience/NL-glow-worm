@@ -80,7 +80,7 @@ Code 1: Arduino IDE mouse readings
 
 **Software**
 
-- **Arduino IDE (v1.8.15):** For setting and recording LEDs' intensity and duration (ADD CODE REF).
+- **Arduino IDE (v1.8.15):** For setting and recording LEDs' intensity and duration (![LED array arduino](software/LED_array_intensity_baseline.ino)).
 
 - **Bonsai (Lopes et al., 2015):** For saving the LED information and a time stamp per frame in a .csv file (Figure 5).
 
