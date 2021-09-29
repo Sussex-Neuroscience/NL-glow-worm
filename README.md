@@ -48,9 +48,9 @@ Individual male glow-worms were tethered in a fixed position, not being allowed 
 
 **Software**
 
-- **Arduino IDE (v1.8.15):** For recording the x and y velocities of the optical mice, at ~ 60 fps.
+- **Arduino IDE (v1.8.15):** For recording the x and y velocities of the optical mice, at ~ 60 fps (ADD CODE REF).
 
-- **Bonsai (Lopes et al., 2015):** For saving the information from the arduinos and a time stamp per frame in a .csv file.
+- **Bonsai (Lopes et al., 2015):** For saving the information from the arduinos and a time stamp per frame in a .csv file (Figure 3).
 
 
 **Additional recordings** 
@@ -62,7 +62,7 @@ Individual male glow-worms were tethered in a fixed position, not being allowed 
 
 ![Bonsai mice and cam](figures/Bonsai_mice_cam.png)
 
-**Figure 4:** Bonsai project workflow for mice and camera
+**Figure 3:** Bonsai project workflow for mice and camera
 
 
 Code 1: Arduino IDE mouse readings
@@ -72,27 +72,26 @@ Code 1: Arduino IDE mouse readings
 
 **Hardware**
 
-- **LEDs:** Wavelength 555 nm; 5 mm diameter
+- **LEDs:** Wavelength 555 nm; 5 mm diameter.
 
-- **LED array:** Custom-made 3D printed semicircular structure fitting up to 9 LEDs
+- **LED array:** Custom-made 3D printed semicircular structure fitting up to 9 LEDs (![LED array scad](software/LED_line.scad); Figure 4A).
 
-- **LED controller:** Custom-printed circuit board which accommodates the microcontroller, the LED driver and up to 24 LED channels
+- **LED controller:** Custom-printed circuit board which accommodates the microcontroller, the LED driver and up to 24 LED channels (Figure 4B).
 
 **Software**
 
-- **Arduino IDE (v1.8.15):** For setting and recording LEDs' intensity and duration
+- **Arduino IDE (v1.8.15):** For setting and recording LEDs' intensity and duration (ADD CODE REF).
 
-- **Bonsai (Lopes et al., 2015):** For saving the LED information and a time stamp per frame in a .csv file.
+- **Bonsai (Lopes et al., 2015):** For saving the LED information and a time stamp per frame in a .csv file (Figure 5).
 
 
 
 ![LED array and controller](figures/LED_array_controller.png)
 
-**Figure 5:** LED array and controller
+**Figure 4:** LED array and controller
 
-![LED array scad](software/LED_line.scad)
 
-Code: Arduino IDE LEDs
+
 
 
 **Figure 6:** Bonsai project workflow for LEDs
