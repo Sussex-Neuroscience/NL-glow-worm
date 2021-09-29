@@ -97,9 +97,9 @@ Code 1: Arduino IDE mouse readings
 **Figure 5:** Bonsai project workflow for LEDs
 
 
-### List of material
 
-![list of material](figures/List_material.xlsx)
+
+You can find the list of hardware and software here: ![list of material](hardware/List_material.xlsx)
 
 
 
