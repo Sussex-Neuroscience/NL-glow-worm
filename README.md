@@ -33,7 +33,7 @@ Individual male glow-worms were tethered in a fixed position, not being allowed 
 
 ![Trackball support](figures/Trackball_support_tethering.png)
 
-**Figure 2: Detailed scheme of tethering and trackball support.** A) Male glow-worm with a tube glued with rapid dry (5 seconds) UV glue to its wings. Insects keep the tube at all times and the tube is connected to the pipete tip for experiments. The pipete tip is glued to the end of the syringe and the syringe attached to a micromanipulator (not shown). B) Photograph and C) Open Scad sketch of the trackball support with the real and fictive ball visible. The support has a cup shape that covers the lower third of the ball and an opening at the center of the cup from which the air passes through. The other end of the air flow opening (not visible) is connected to a the pump through a system of tubes and connectors.
+**Figure 2: Detailed scheme of tethering and trackball support.** A) Male glow-worm with a tube glued with rapid dry (5 seconds) UV glue to its wings. Insects keep the tube at all times and the tube is connected to the pipete tip for experiments. The pipete tip is glued to the end of the syringe and the syringe attached to a micromanipulator (not shown). B) Photograph and C) Open Scad sketch of the trackball support with the real and fictive ball visible. The support has a cup shape that covers the lower third of the ball and an opening at the center of the cup from which the air passes through. The other end of the air flow opening (not visible) is connected to a the pump through a system of tubes and connectors. Two sides of the support have protrusions for fixing the optical mice.
 
 
 
