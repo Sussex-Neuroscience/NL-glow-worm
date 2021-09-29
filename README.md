@@ -59,13 +59,9 @@ Individual male glow-worms were tethered in a fixed position, not being allowed 
 
 
 
-
 ![Bonsai mice and cam](figures/Bonsai_mice_cam.png)
 
-**Figure 3:** Bonsai project workflow for mice and camera
-
-
-Code 1: Arduino IDE mouse readings
+**Figure 3: Bonsai project workflow for mice and camera.**
 
 
 ### Stimulus 
@@ -76,7 +72,7 @@ Code 1: Arduino IDE mouse readings
 
 - **LED array:** Custom-made 3D printed semicircular structure fitting up to 9 LEDs (![LED array scad](software/LED_line.scad); Figure 4A).
 
-- **LED controller:** Custom-printed circuit board which accommodates the microcontroller, the LED driver and up to 24 LED channels (Figure 4B).
+- **LED controller:** Custom-printed circuit board which accommodates the microcontroller, the LED driver and up to 24 LED channels (Figure 4B). You can find more detailed information [BadenLab/LED-Zappelin](https://github.com/BadenLab/LED-Zappelin).
 
 **Software**
 
@@ -88,7 +84,7 @@ Code 1: Arduino IDE mouse readings
 
 ![LED array and controller](figures/LED_array_controller.png)
 
-**Figure 4: LED array and controller.** 
+**Figure 4: LED array and controller.** A) custom 3D printed array for fitting LEDs, with two side structures for mounting it around the trackball. B) Custom-printed circuit board which accommodates the microcontroller, the LED driver and up to 24 LED channels. 
 
 
 ![LED bonsai](figures/LED_bonsai.png)
