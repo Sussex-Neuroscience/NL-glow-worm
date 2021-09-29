@@ -19,9 +19,9 @@ This set-up was design to investigate male glow-worms attraction to a stimulus t
 
 
 
-![Trackball support](figures/Trackball_support.png)
+![Trackball support](figures/Trackball_support_tethering.png)
 
-**Figure 2: Detailed scheme of the support.** The support consisted on a cup 
+**Figure 2: Detailed scheme of tethering and trackball support.** A) B) C)
 
 
 
