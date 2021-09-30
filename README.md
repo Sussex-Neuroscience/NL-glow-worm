@@ -1,28 +1,35 @@
 # NL-glow-worm
 A tracking and stimulation system for glow worms
 
-### Summary
-This set-up was design to investigate male glow-worms attraction to a stimulus that mimics the female’s glow. The aim was to be able to do so in tethered animals, whose behavior can be recorded at all times. Furthermore, we intended to have the ability to fully control the stimulus position relative to the glow-worm, as well as other characteristics such as intensity (brightness) and the duration of presentation.
+## Aims
+This set-up was design to investigate male glow-worms attraction to a stimulus that mimics the females' glow. The aim was to be able to do so in tethered animals, whose behavior could be recorded at all times. Furthermore, we intended to have the ability to fully control the stimulus position relative to the glow-worm, as well as other characteristics such as intensity (brightness) and the duration of presentation.
+
+
+## Methodology
+
+The tracking system was designed for tethered male glow-worms. Insects were fixed on top of a walking platform, which consisted in a light polystyrene ball that seated on top of a cup shape structure. The cup was perforated at the centre, allowing for air flow to be pumped through. Thus, the light ball was supported by an air cushion and could, with very little friction, rotate as the glow-worm walked. The movements of the ball, and thus the fictive path of the glow-worm, were recorded by two optical mice sensors, placed close to the ball and orthogonally to each other. The optical mice x and y velocities were recorded by a computer, and were then analyzed in terms of translational and angular distance and velocity. 
+
+The stimulus consisted on LEDs with similar wavelength as the female glow, displayed as an array that surrounded ~ 180° of the insect's lateral visual field. The LEDs were attached to a controller and their intensity and duration of presentation controlled and recorded.
 
 ![Trackball schematics](figures/Trackball_set-up_general_whitebackground.png)
 
-**Figure 1: Schematics of trackball and stimulation set-up for glow-worms.** The set-up consists in a tethered male glow-worm, walking on top of a polystyrene ball supported by an air cushion on top of a custom 3D printed support (gray). As the insect walks, the ball moves beneath it and its movements are recorded by two optical mice sensors (dark green), placed close to the ball and orthogonally to each other. Each optical mouse is connected to an Arduino Due, in turn connected to a USB port. The optical mice x and y velocities are recorded by the computer, which are then analyzed in terms of translational and angular velocities. The stimulus consists on LEDs with similar wavelength as the female glow (light green), fixed to a custom 3D printed array (yellow) that surrounds ~ 180° of the insect's lateral visual field. The LEDs are attached to a controller and their intensity and duration of presentation can be controlled and recorded.
+**Figure 1: Schematics of trackball and stimulation set-up for glow-worms.** A tethered male glow-worm walks on top of a polystyrene ball supported by an air cushion which seats on a custom 3D printed support (gray). As the insect walks, the ball moves beneath it and its movements are recorded by two optical mice sensors (dark green). Each optical mouse is connected to an Arduino Due, in turn connected to a USB port. The glow-worm is presented with light stimuli through LEDs (light green) fixed to a custom 3D printed array (yellow) that surrounds ~ 180° of the insect's lateral visual field. The LEDs are attached to a controller, in turn connected to a USB port.
 
 
 ### Tethering 
 
-Individual male glow-worms were tethered in a fixed position, not being allowed to rotate by themselves on top of the ball nor adjust their height (Figure 2A).
+Individual male glow-worms were tethered in a fixed position, not being allowed to rotate by themselves on top of the ball nor adjust their height (Figure 2A). The following material was needed for tethering:
 
-- **Micromanipulator:** for allowing the experimenter to adjust the position and height of the insect on top of the ball.
+- **Tube:** small tube (SIZE) glued to the wings, around the insect's center of mass, with rapid (5 seconds) UV glue.
 
-- **Syringe:** part of the therering system that connects to the micromanipulator.
+- **Pipette tip and syringe:** cut pipette tip (SIZE) glued to the cut tip of a SIZE syringe, where the insect's tuge could fit.
 
-- **Pipete tip:** glued to the tip of the syringe.
+- **Micromanipulator:** where the other end of the syringe could attach to, for allowing the experimenter to adjust the position and height of the insect on top of the ball.
 
-- **Tube:** diameter = ; length = ; glued to the wings, around the center of mass; connects to the pipete tip.
 
 
 ### Trackball and support
+
 
 - **Trackball:** Polystyrene ball with 5 cm diameter.
 
@@ -33,7 +40,7 @@ Individual male glow-worms were tethered in a fixed position, not being allowed 
 
 ![Trackball support](figures/Trackball_support_tethering_new.png)
 
-**Figure 2: Detailed scheme of tethering and trackball support.** A) Male glow-worm with a tube glued with rapid dry (5 seconds) UV glue to its wings. Insects keep the tube at all times and the tube is connected to the pipete tip for experiments. The pipete tip is glued to the end of the syringe and the syringe attached to a micromanipulator (not shown). B) Photograph and C) Open Scad sketch of the trackball support with the real and fictive ball visible. The support has a cup shape that covers the lower third of the ball and an opening at the center of the cup from which the air passes through. The other end of the air flow opening (not visible) is connected to a the pump through a system of tubes and connectors. Two sides of the support have protrusions for fixing the optical mice.
+**Figure 2: Detailed scheme of tethering and trackball support.** A) Male glow-worm with a tube glued with rapid dry (5 seconds) UV glue to its wings. Insects keep the tube at all times and the tube is connected to the pipette tip for experiments. The pipette tip is glued to the end of the syringe and the syringe attached to a micromanipulator (not shown). B) Photograph and C) Open Scad sketch of the trackball support with the real and fictive ball visible. The support has a cup shape that covers the lower third of the ball and an opening at the center of the cup from which the air passes through. The other end of the air flow opening (not visible) is connected to a the pump through a system of tubes and connectors. Two sides of the support have protrusions for fixing the optical mice.
 
 
 
