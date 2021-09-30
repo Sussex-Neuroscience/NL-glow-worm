@@ -53,11 +53,11 @@ The walking behaviour of glow-worms was inferred by recordings of the trackball'
 
 - **Optic flow sensors:** two optical mice's (M500 Logitech) sensors and relevant circuits were detached from the remaining parts. Each was attached to a side of the trackball support, orthogonal to each other, with the sensor at the level of the ball’s equator (Figure 2B).
 
-- **Arduino Due:** Each optical mouse was connected to one Arduino Due, which in turn connected to a USB port on a computer.
+- **Arduino Due:** each optical mouse was connected to one Arduino Due, which in turn connected to a USB port on a computer.
 
 **Additional recordings** 
 
-- **Infra-red camera:** Placed above the set-up and connected to the same computer via USB.  
+- **Infra-red camera:** placed above the set-up and connected to the same computer via USB.  
 
 
 **Software**
