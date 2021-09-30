@@ -64,7 +64,7 @@ The walking behaviour of glow-worms was inferred by recordings of the trackball'
 
 - **Arduino IDE (v1.8.15):** for recording the x and y velocities of the optical mice, at ~ 60 fps (![Mouse recorder arduino](software/MouseController_1.ino)).
 
-- **Bonsai (Lopes et al., 2015):** for saving the information from the Arduinos and camera, with a time stamp per frame, in a .csv file each.
+- **Bonsai (Lopes et al., 2015):** for saving the information from the Arduinos and camera, with a time stamp per frame, in a .csv file each (![Bonsai mouse and cam](software/OneCam_TwoMouse.bonsai)).
 
 
 <!-- ![Bonsai mice and cam](figures/Bonsai_mice_cam.png)
@@ -88,7 +88,7 @@ A light stimulus was presented to the fixed glow-worm using the following:
 
 - **Arduino IDE (v1.8.15):** for setting and recording the LEDs' intensity and duration (![LED array arduino](software/LED_array_intensity_baseline.ino)).
 
-- **Bonsai (Lopes et al., 2015):** for saving the LED information and a time stamp per frame in a .csv file.
+- **Bonsai (Lopes et al., 2015):** for saving the LED information and a time stamp per frame in a .csv file (![Bonsai LEDs](software/LED.bonsai)).
 
 
 ![LED array and controller](figures/LED_array_controller.png)
