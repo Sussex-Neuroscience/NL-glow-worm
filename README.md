@@ -176,6 +176,7 @@ The motor and ball rotated 360 degrees 15 times, each time with a different spee
 
 The calibration factor was calculated by dividing the real distance moved, which corresponded to 15 times the perimeter of the ball at the equator (2 * pi * ball radius), by the mouse recorded total distance (x displacement and y displacement).
 
+![Calibration](calibration_data/Trackball_calibration.Rmd)
 
 
 
