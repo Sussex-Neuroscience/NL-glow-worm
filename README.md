@@ -107,11 +107,11 @@ You can find the list of hardware and software ![here](hardware/List_material.xl
 
 ### Raw variables from the optical mice
 
-The optical mice (Logitech M500) comprise an infrared LED, an image acquisition system (IAS) and a digital signal processor (DSP). The infrared LED light projected onto the trackball surface bounced back and was captured by the IAS, which consisted in a sensor that recorded, in this case, around 60 images per second. As the ball near the mouse moved, these images changed and this change was processed by the DPS in order to determine the direction and magnitude of the movement. Thus, the raw data obtained from the optical mice, recorded by the Arduino Due and Bonsai, were:
+The optical mice (Logitech M500) comprise an infrared LED, an image acquisition system (IAS) and a digital signal processor (DSP). The infrared LED light projected onto the trackball surface bounces back and is captured by the IAS, which consists in a sensor that records, in this case, around 60 images per second. As the ball near the mouse moves, these images change and this change iss processed by the DPS in order to determine the direction and magnitude of the movement. Thus, the raw data obtained from the optical mice, recorded by the Arduino Due and Bonsai, were:
 
-- **x displacement:** specified the relative change in pixels (dots/counts) between the current and previous frames, in the horizontal axis;
+- **x displacement:** specifies the relative change in pixels (dots/counts) between the current and previous frames, in the horizontal axis;
 
-- **y displacement:** specified the relative change in pixels (dots/counts) between the current and previous frames,in the vertical axis;
+- **y displacement:** specifies the relative change in pixels (dots/counts) between the current and previous frames, in the vertical axis;
 
 - **Time:** number of microseconds that have passed from the moment the program was uploaded into the Arduino Due.
 
@@ -119,9 +119,7 @@ These raw values were essentially distances, in pixel units, and each frame had 
 
 ### Specific experimental variables
 
-The variable time was normalized to start at zero, converted to seconds (not shown), and used for merging the the data from the two mice to the nearest value. The time difference between frames was calculated:
-
-- **Time difference:** time difference between the current frame and the previous. 
+The variable time was normalized to start at zero, converted to seconds (not shown), and used for merging the the data from the two mice to the nearest value. The **time difference** between frames was calculated as the difference between the current frame and the previous. 
 
 For this particular set-up, the insect was tethered on top of the trackball facing a particular direction. As the animal turned, the ball rotated underneath it and this movement was captured by changes in the horizontal axis of the optical mice sensors. If the animal turned 360 degrees, the ball moved the correspondent value on the opposite direction. Thus, the x displacement values, in pixel units, corresponded to the full perimeter of the ball at the equator level, at which the sensors were placed (Figure 4A).
 
@@ -133,7 +131,7 @@ The variables calculated from the x displacement were:
 
 - **Cumulative angular displacement:** sum of angular displacement of current and all previous frames;
 
-- **X velocity:** Mean x displacement divided by the time difference;
+- **x velocity:** Mean x displacement divided by the time difference;
 
 - **Angular velocity:** angular displacement divided by the time difference.
 
@@ -149,6 +147,12 @@ The variables calculated from the y displacement were:
 
 Lastly, the error between the two mice was calculated as the difference between their x displacement values, which should be the same if no error occurred.
 
+
+![Mice variables](figures/Mice_variables.png)
+
+**Figure 4: Movement direction and corresponding variables from optical mice.** A) Turning movement corresponds to rotation of the ball on the horizontal axis of the optical mice and, consequently, change in their x displacement values. The x displacement from both mice should have the same value if no recording error occured. B) Walking forward corresponds to rotation of the ball on the vertical axis of the optical mice and, consequently, change in their y displacement values. C) The real forward displacement is a combination of the y displacement values from both mice which, because they are ortogonal to each other, can be calculated as the hypotenuse between the two vectors.
+
+
 ## Calibration of the optical mice
 
 ### Stepper motor program
@@ -161,26 +165,37 @@ The motor and ball were aligned with the mice to create a fictive reading for:
 
 - translation forward (axis between the two mice; Figure 4B);
 
-- translation to the left (aligned with the mouse on the right; Figure 4C);
+- translation to the left (aligned with the mouse on the right);
 
-- translation to the right (aligned with the mouse on the left; Figure 4D).
+- translation to the right (aligned with the mouse on the left).
 
 The motor and ball rotated 360 degrees 15 times, each time with a different speeds, for each of the fictive readings.
 
 
 ### Calibration factor
 
-The calibration factor was calculated by dividing the real distance moved, which corresponded to 15 times the perimeter of the ball at the equator (2 * pi * ball radius), by the mouse recorded total distance (x displacement and y displacement) (Table 1).
+The calibration factor was calculated by dividing the real distance moved, which corresponded to 15 times the perimeter of the ball at the equator (2 * pi * ball radius), by the mouse recorded total distance (x displacement and y displacement).
 
-**Table 1: Calibration factors for each direction.** Calibration factors were very similar between the four conditions.
+
 
 
 ### Error between mice readings
 
-Because x velocity of each mouse should be the same, the error between mice readings was calculated as the difference between the x velocity of one and the other. This was calculated for each direction (Figure 6).
+Because x velocity of each mouse should be the same, the error between mice readings was calculated as the difference between the x velocity of one and the other. This was calculated for each direction.
 
 
-**Figure 6: Histograms of the error between the two mice x velocities.** A) Rotation has the largest errors between mice, as it also has the largest x values. B) Translation forwards, C) translation to left and D) translation to right have much lower error. In all cases, error is roughly centered around zero.
+
+
+
+
+
+**Table 1: Calibration factors for each direction.** Calibration factors were very similar between the four conditions.
+
+
+
+
+
+
 
 
 
