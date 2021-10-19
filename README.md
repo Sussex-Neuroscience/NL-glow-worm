@@ -176,32 +176,18 @@ The motor and ball rotated 360 degrees 15 times, each time with a different spee
 
 The calibration factor was calculated by dividing the real distance moved, which corresponded to 15 times the perimeter of the ball at the equator (2 * pi * ball radius), by the mouse recorded total distance (x displacement and y displacement).
 
+The calibration factor was very similar between the 4 tests, with mean of 0.0291947 +/- 7.773015^{-4}.
+
+This value must be multiplied by the x and y displacement from the mouse to get these and remaining variables in real distance values. This distance is in the unit specified in the ball radius.
+
+
+
+
+
+<!--
 ![Calibration](calibration_data/Trackball_calibration.md)
 
-render(calibration_data/Trackball_calibration.md)
-
-### Error between mice readings
-
-Because x velocity of each mouse should be the same, the error between mice readings was calculated as the difference between the x velocity of one and the other. This was calculated for each direction.
-
-
-
-
-
-
-
-**Table 1: Calibration factors for each direction.** Calibration factors were very similar between the four conditions.
-
-
-
-
-
-
-
-
-
-
-<!--information/link dump:  
+information/link dump:  
 https://www.adafruit.com/product/1356  
 https://www.mouser.co.uk/ProductDetail/Lumex/SSL-LX5093PGD?qs=%2Fha2pyFaduh%252BeY3QLiqc1szK7GoZblk1b%252BVpa99b7ZsXu%2FBD2FbvvA%3D%3D  
 
