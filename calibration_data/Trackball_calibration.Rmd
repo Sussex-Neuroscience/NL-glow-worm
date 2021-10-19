@@ -2,7 +2,7 @@
 title: "Trackball_Calibration"
 author: "Sofia Fernandes"
 date: "13/10/2021"
-output: html_document
+output: rmarkdown::github_document
 ---
 
 ```{r libraries and global variables, echo=FALSE, message=FALSE, warning=FALSE}
