@@ -22,7 +22,7 @@ Individual male glow-worms were tethered in a fixed position, not being allowed 
 
 - **Tube:** small tube (1.02mm ID, 1.98mm OD, 5mm length) glued to the wings, around the insect's center of mass, with rapid (5 seconds) UV glue. The tube was glued to the glow-worm at all times and attached to the experimental apparatus for experiments.
 
-- **Pipette tip and syringe:** cut pipette tip glued to the bent tip of a long syringe needle (length: 120 mm), where the insect's tube could attach to.
+- **Pipette tip and syringe needle:** cut pipette tip glued to the bent tip of a long syringe needle (length: 120 mm), where the insect's tube could attach to.
 
 - **Micromanipulator:** where the other end of the syringe needle could attach to, for allowing the experimenter to adjust the position and height of the insect on top of the ball.
 
