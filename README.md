@@ -175,7 +175,7 @@ The calibration factor was very similar between the 4 tests, with a mean of 0.02
 
 This value must be multiplied by the x and y displacement from the mouse to get these and remaining variables in real distance and velocity values. This distance is in the unit specified in the ball radius (mm/cm and mm^2/cm^2, respectively).
 
-You can find some semi-edited data from the trackball calibration ![here](hardware/).
+You can find some semi-edited data from the trackball calibration ![here](calibration_data/).
 
 
 
