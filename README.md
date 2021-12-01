@@ -152,7 +152,7 @@ Lastly, the error between the two mice was calculated as the difference between 
 
 ### Stepper motor program
 
-The calibration was performed using a stepper motor, controlled by an Arduino Uno. A custom 3D printed ball, of the same diameter of the polystyrene ball (5 cm), was attached to the motor and positioned on top of the trackball support (Figure 5). 
+The calibration was performed using a stepper motor, controlled by an Arduino Uno. A custom 3D printed ball, of the same diameter of the polystyrene ball (5 cm), was attached to the motor and positioned on top of the trackball support. 
 
 The motor and ball were aligned with the mice to create a fictive reading for:
 
