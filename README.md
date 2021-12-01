@@ -1,5 +1,3 @@
-<div style="text-align: justify"> your-text-here </div>
-
 # GlowWorm_Trackball&LEDstim
 A tracking and stimulation system for glow worms
 
