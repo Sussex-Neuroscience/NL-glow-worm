@@ -1,8 +1,8 @@
 # GlowWorm_Trackball&LEDstim
 A tracking and stimulation system for glow worms
 
-Authors: A.S.D Fernandes, E. Moubarak, A.C. Maia & J.E. Niven
-Aknowlegements: M.J.Y. Zimmermann
+    Authors: A.S.D Fernandes, E. Moubarak, A.C. Maia & J.E. Niven
+    Aknowlegements: M.J.Y. Zimmermann
 
 ## Aims
 This set-up was designed to investigate male glow-worms attraction to a stimulus that mimics the females' glow. The aim was to be able to do so in tethered animals, whose behavior could be recorded at all times. Furthermore, we intended to have the ability to fully control the stimulus position relative to the glow-worm, as well as other characteristics such as intensity (brightness) and the duration of presentation.
