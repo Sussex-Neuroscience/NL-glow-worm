@@ -1,4 +1,4 @@
-# GlowWorm_Trackball_LEDstim
+# GlowWorm_Trackball&LEDstim
 A tracking and stimulation system for glow worms
 
 ## Aims
