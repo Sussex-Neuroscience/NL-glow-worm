@@ -20,7 +20,7 @@ The stimulus consisted on LEDs with similar wavelength as the female glow, displ
 
 Individual male glow-worms were tethered in a fixed position, not being allowed to rotate by themselves on top of the ball nor adjust their height (Figure 2A). The following material was needed for tethering:
 
-- **Tube:** small tube (SIZE) glued to the wings, around the insect's center of mass, with rapid (5 seconds) UV glue. The tube was kept at all times and attached to the experimental apparatus for experiments.
+- **Tube:** small tube (SIZE) glued to the wings, around the insect's center of mass, with rapid (5 seconds) UV glue. The tube was glued to the glow-worm at all times and attached to the experimental apparatus for experiments.
 
 - **Pipette tip and syringe:** cut pipette tip (SIZE) glued to the bent tip of a long syringe (SIZE), where the insect's tube could attach to.
 
