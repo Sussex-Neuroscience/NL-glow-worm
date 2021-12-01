@@ -7,7 +7,7 @@ This set-up was design to investigate male glow-worms attraction to a stimulus t
 
 ## Methodology
 
-Insects were fixed on top of a walking platform, which consisted in a light polystyrene ball that seated on top of a cup shape structure. The cup was perforated at the centre, allowing for air flow to be pumped through. Thus, the light ball was supported by an air cushion and could, with very little friction, rotate as the glow-worm walked. The movements of the ball, and thus the fictive path of the glow-worm, were recorded by two optical mice sensors, placed close to the ball and orthogonally to each other. The optical mice x and y velocities were recorded by a computer, and were then analyzed in terms of translational and angular distance and velocity. 
+Insects were fixed on top of a walking platform, which consisted in a light polystyrene ball that seated on top of a cup-shaped structure. The cup was perforated at the centre, allowing for air flow to be pumped through. Thus, the light ball was supported by an air cushion and could, with very little friction, rotate as the glow-worm walked. The movements of the ball, and thus the fictive path of the glow-worm, were recorded by two optical mice sensors, placed close to the ball and orthogonally to each other. The optical mice x and y velocities were recorded by a computer, and were then analyzed in terms of translational and angular distance and velocity. 
 
 The stimulus consisted on LEDs with similar wavelength as the female glow, displayed as an array that surrounded ~ 180° of the insect's lateral visual field. The LEDs were attached to a controller and their intensity and duration of presentation controlled and recorded.
 
