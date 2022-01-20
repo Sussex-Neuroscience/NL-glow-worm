@@ -1,7 +1,7 @@
 # GlowWorm_Trackball&LEDstim
 A tracking and stimulation system for glow worms
 
-    Authors: A.S.D Fernandes, E. Moubarak, A.C. Maia & J.E. Niven
+    Authors: A.S.D Fernandes, E. Moubarak, A.M. Chagas & J.E. Niven
     Aknowlegements: M.J.Y. Zimmermann
 
 ## Aims
